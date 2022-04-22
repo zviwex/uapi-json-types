@@ -1,8 +1,11 @@
 
 # uapi-json-types
 [![NPM Version](https://badge.fury.io/js/uapi-json-types.svg?style=flat)](https://npmjs.org/package/uapi-json-types)
-
 uapi-json-types is an unofficial types for the uapi-json library
+
+# Discontinued
+## types has integrated to [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/uapi-json), so this repository's support will be discontinued.
+
 
 ## Support
 
