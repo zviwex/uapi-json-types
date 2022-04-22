@@ -1,4 +1,4 @@
-/// <reference path="../Utils/Settings.d.ts" />
+/// <reference path="./Settings.d.ts" />
 
 declare module 'HotelsService' {
     import { Settings } from 'Settings';
