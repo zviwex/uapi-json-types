@@ -1,9 +1,7 @@
-declare module 'error-types' {
-  export const ServiceError: any;
-  export namespace commonErrors{
-    export const RuntimeError: any;
-    export const ValidationError: any;
-    export const ParsingError: any;
-    export const SoapError: any;
-  }
+export const ServiceError: Error;
+export namespace commonErrors {
+    const RuntimeError: Error;
+    const ValidationError: Error;
+    const ParsingError: Error;
+    const SoapError: Error;
 }

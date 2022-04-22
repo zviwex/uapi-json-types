@@ -1,7 +1,5 @@
-declare module 'RequestErrors' {
-  export namespace requestErrors {
-    export const RequestValidationError: any;
-    export const RequestRuntimeError: any;
-    export const RequestSoapError: any;
-  }
+export namespace requestErrors {
+    const RequestValidationError: Error;
+    const RequestRuntimeError: Error;
+    const RequestSoapError: Error;
 }

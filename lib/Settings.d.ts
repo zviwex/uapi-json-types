@@ -1,10 +1,8 @@
-declare module 'Settings' {
-  export interface Options {
+export interface Options {
     logFunction: (...args: any) => any;
-  }
+}
 
-  
-  export interface Auth {
+export interface Auth {
     username: string;
     password: string;
     targetBranch: string;
@@ -13,13 +11,11 @@ declare module 'Settings' {
     provider?: string;
 }
 
-  export interface Settings {
+export interface Settings {
     auth: Auth;
     debug?: 0 | 1 | 2 | 3;
     production?: boolean;
     timeout?: number;
     autoClose?: boolean;
     options?: Options;
-    
-  }
 }
