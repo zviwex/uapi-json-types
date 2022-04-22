@@ -1,4 +1,4 @@
-
+/// <reference path="./Settings.d.ts" />
     
 declare module 'UtilsService' {
     import { Settings } from 'Settings';

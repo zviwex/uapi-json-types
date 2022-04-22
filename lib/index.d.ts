@@ -1,5 +1,16 @@
+/// <reference path="./Services/Utils/UtilsService.d.ts" />
+/// <reference path="./Services/Utils/UtilsErrors.d.ts" />
+/// <reference path="./Services/Hotels/HotelsService.d.ts" />
+/// <reference path="./Services/Hotels/HotelsErrors.d.ts" />
+/// <reference path="./Services/Air/Air.d.ts" />
+/// <reference path="./Services/Air/AirErrors.d.ts" />
+/// <reference path="./Services/Terminal/Terminal.d.ts" />
+/// <reference path="./Services/Terminal/TerminalErrors.d.ts" />
+/// <reference path="./Request/RequestErrors.d.ts" />
+/// <reference path="./error-codes.d.ts" />
+/// <reference path="./error-types.d.ts" />
+
 declare module 'uapi-json' {
-    
     import { createUtilsService } from "UtilsService";
     import { createHotelService }  from "HotelsService";
     import { createAirService }  from "Air";

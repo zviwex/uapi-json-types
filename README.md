@@ -12,5 +12,19 @@ Currently the API supports the mainline services and the functions of the servic
  * Hotels
  * Air
  * Terminal
- 
+
+## Notes
+
+-   In order to use included TypeScript declarations, configure your `tsconfig.json` file accordingly. For example,
+
+    ```text
+    {
+      "compilerOptions": {
+        ...
+        "typeRoots": ["node_modules/uapi-json-types", "node_modules/@types", ... ],
+        ...
+      },
+      ...
+    }
+    ```
 ## Contact for support and more features! 

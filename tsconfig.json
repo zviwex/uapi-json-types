@@ -10,7 +10,7 @@
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "outDir": "build",
-    "typeRoots": ["@types", "node_modules/@types"]
+    "typeRoots": ["lib", "node_modules/@types"]
     // "paths": {
     //   "*": [
     //     "./@types",
@@ -19,7 +19,6 @@
     // }
   },
   "include": [
-    "./lib/**/*.ts",
-    "./@types/**/*.d.ts",
+    "./lib/**/*.d.ts"
   ]
 }

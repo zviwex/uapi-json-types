@@ -1,3 +1,4 @@
+/// <reference path="../Utils/Settings.d.ts" />
 
 declare module 'Air' {
     import { Settings } from 'Settings';

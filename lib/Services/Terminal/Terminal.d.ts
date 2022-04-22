@@ -1,4 +1,4 @@
-
+/// <reference path="../Utils/Settings.d.ts" />
 
 declare module 'Terminal' {
     import { Settings } from 'Settings';
