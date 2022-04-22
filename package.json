@@ -1,13 +1,13 @@
 {
-  "name": "@types/uapi-json",
-  "description": "UNofficial types for uapi-json library",
+  "name": "uapi-json-types",
+  "description": "Unofficial types for uapi-json library",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/zviwex/uapi-json-types.git"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "types": "lib/index.d.ts",
   "releaseFiles": [
     "lib/",
